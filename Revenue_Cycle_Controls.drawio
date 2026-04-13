@@ -5,7 +5,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="BpuwpmjKTx-wE1sNw__A-2" parent="1" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;whiteSpace=wrap;" value="Kissena Bakery - Revenue Cycle (Order-To-Cash)" vertex="1">
-          <mxGeometry height="790" width="590" x="320" y="50" as="geometry" />
+          <mxGeometry height="790" width="700" x="320" y="50" as="geometry" />
         </mxCell>
         <mxCell id="BpuwpmjKTx-wE1sNw__A-3" parent="BpuwpmjKTx-wE1sNw__A-2" style="swimlane;html=1;startSize=38;fillColor=#FFFF99;" value="Sales Department" vertex="1">
           <mxGeometry height="770" width="270" y="20" as="geometry" />
@@ -58,7 +58,7 @@
           <mxGeometry height="80" width="80" x="30" y="650" as="geometry" />
         </mxCell>
         <mxCell id="BpuwpmjKTx-wE1sNw__A-4" parent="BpuwpmjKTx-wE1sNw__A-2" style="swimlane;html=1;startSize=38;fillColor=#6666FF;" value="Warehouse Department" vertex="1">
-          <mxGeometry height="770" width="170" x="270" y="20" as="geometry" />
+          <mxGeometry height="770" width="280" x="270" y="20" as="geometry" />
         </mxCell>
         <mxCell id="BpuwpmjKTx-wE1sNw__A-29" edge="1" parent="BpuwpmjKTx-wE1sNw__A-4" source="BpuwpmjKTx-wE1sNw__A-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="BpuwpmjKTx-wE1sNw__A-28">
           <mxGeometry relative="1" as="geometry" />
@@ -66,11 +66,27 @@
         <mxCell id="BpuwpmjKTx-wE1sNw__A-23" parent="BpuwpmjKTx-wE1sNw__A-4" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Sales Order Received By Warehouse" vertex="1">
           <mxGeometry height="100" width="100" x="35" y="80" as="geometry" />
         </mxCell>
+        <mxCell id="BpuwpmjKTx-wE1sNw__A-36" edge="1" parent="BpuwpmjKTx-wE1sNw__A-4" source="BpuwpmjKTx-wE1sNw__A-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="BpuwpmjKTx-wE1sNw__A-35" value="Yes- In Stock">
+          <mxGeometry relative="1" x="-0.5" y="35" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BpuwpmjKTx-wE1sNw__A-38" edge="1" parent="BpuwpmjKTx-wE1sNw__A-4" source="BpuwpmjKTx-wE1sNw__A-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=9;" target="BpuwpmjKTx-wE1sNw__A-37" value="No- Out Of Stock">
+          <mxGeometry relative="1" x="-0.3333" y="20" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="BpuwpmjKTx-wE1sNw__A-28" parent="BpuwpmjKTx-wE1sNw__A-4" style="rhombus;whiteSpace=wrap;html=1;" value="Inventory Available?" vertex="1">
           <mxGeometry height="80" width="80" x="45" y="220" as="geometry" />
         </mxCell>
+        <mxCell id="BpuwpmjKTx-wE1sNw__A-35" parent="BpuwpmjKTx-wE1sNw__A-4" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Goods Picked &amp;amp; Packed" vertex="1">
+          <mxGeometry height="75" width="85" x="42.5" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="BpuwpmjKTx-wE1sNw__A-37" parent="BpuwpmjKTx-wE1sNw__A-4" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=10;" value="Escalate To Manager- Back Order Or Cancel" vertex="1">
+          <mxGeometry height="60" width="65" x="200" y="230" as="geometry" />
+        </mxCell>
         <mxCell id="BpuwpmjKTx-wE1sNw__A-5" parent="BpuwpmjKTx-wE1sNw__A-2" style="swimlane;html=1;startSize=38;fillColor=#99FFFF;" value="Accounts Receivable" vertex="1">
-          <mxGeometry height="770" width="150" x="440" y="20" as="geometry" />
+          <mxGeometry height="770" width="150" x="550" y="20" as="geometry" />
         </mxCell>
         <mxCell id="BpuwpmjKTx-wE1sNw__A-34" edge="1" parent="BpuwpmjKTx-wE1sNw__A-2" source="BpuwpmjKTx-wE1sNw__A-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="BpuwpmjKTx-wE1sNw__A-23">
           <mxGeometry relative="1" as="geometry">
