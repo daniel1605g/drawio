@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" pages="2">
   <diagram name="Page 1" id="M0kHXgkDdQyvt9E_IEKu">
-    <mxGraphModel dx="892" dy="670" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="945" dy="709" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -113,6 +113,12 @@
               <mxPoint x="280" y="150" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="zJCvn9wnVyLfBJ91DtCW-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;dashed=1;fillColor=#FFCCE6;" value="&lt;div&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;&lt;strong data-start=&quot;334&quot; data-end=&quot;356&quot;&gt;Control Ref: CA-01&lt;/strong&gt;&lt;br data-start=&quot;356&quot; data-end=&quot;359&quot;&gt;&lt;/font&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;The purpose of this is to make sure the company reviews a customer’s credit before continuing with the order. It helps in lowerering the risk of shipping goods to customers who may not pay.&lt;/font&gt;" vertex="1">
+          <mxGeometry height="100" width="160" x="150" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="zJCvn9wnVyLfBJ91DtCW-2" edge="1" parent="1" source="zJCvn9wnVyLfBJ91DtCW-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;endFill=0;dashed=1;" target="BpuwpmjKTx-wE1sNw__A-17">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
