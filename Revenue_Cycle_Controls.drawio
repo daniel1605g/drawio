@@ -1,14 +1,14 @@
-<mxfile host="app.diagrams.net">
-  <diagram name="Page-1" id="M0kHXgkDdQyvt9E_IEKu">
-    <mxGraphModel dx="892" dy="670" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+<mxfile host="app.diagrams.net" pages="2">
+  <diagram name="Page 1" id="M0kHXgkDdQyvt9E_IEKu">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="BpuwpmjKTx-wE1sNw__A-2" parent="1" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;whiteSpace=wrap;" value="Kissena Bakery - Revenue Cycle (Order-To-Cash)" vertex="1">
-          <mxGeometry height="790" width="700" x="320" y="50" as="geometry" />
+          <mxGeometry height="860" width="700" x="320" y="50" as="geometry" />
         </mxCell>
         <mxCell id="BpuwpmjKTx-wE1sNw__A-3" parent="BpuwpmjKTx-wE1sNw__A-2" style="swimlane;html=1;startSize=38;fillColor=#FFFF99;" value="Sales Department" vertex="1">
-          <mxGeometry height="770" width="270" y="20" as="geometry" />
+          <mxGeometry height="840" width="270" y="20" as="geometry" />
         </mxCell>
         <mxCell id="BpuwpmjKTx-wE1sNw__A-8" edge="1" parent="BpuwpmjKTx-wE1sNw__A-3" source="BpuwpmjKTx-wE1sNw__A-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" target="BpuwpmjKTx-wE1sNw__A-7" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -51,14 +51,14 @@
         <mxCell id="BpuwpmjKTx-wE1sNw__A-18" edge="1" parent="BpuwpmjKTx-wE1sNw__A-3" source="BpuwpmjKTx-wE1sNw__A-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.493;exitY=0.842;exitDx=0;exitDy=0;exitPerimeter=0;" target="BpuwpmjKTx-wE1sNw__A-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="BpuwpmjKTx-wE1sNw__A-19" parent="BpuwpmjKTx-wE1sNw__A-3" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Order Rejected- Customer Notified" vertex="1">
+        <mxCell id="BpuwpmjKTx-wE1sNw__A-19" parent="BpuwpmjKTx-wE1sNw__A-3" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=11;fillColor=#FF6666;" value="Order Rejected- Customer Notified" vertex="1">
           <mxGeometry height="70" width="100" x="160" y="525" as="geometry" />
         </mxCell>
         <mxCell id="BpuwpmjKTx-wE1sNw__A-21" parent="BpuwpmjKTx-wE1sNw__A-3" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Sales Order Authorized &amp;amp; Released To Warehouse" vertex="1">
           <mxGeometry height="80" width="80" x="30" y="650" as="geometry" />
         </mxCell>
         <mxCell id="BpuwpmjKTx-wE1sNw__A-4" parent="BpuwpmjKTx-wE1sNw__A-2" style="swimlane;html=1;startSize=38;fillColor=#6666FF;" value="Warehouse Department" vertex="1">
-          <mxGeometry height="770" width="280" x="270" y="20" as="geometry" />
+          <mxGeometry height="840" width="280" x="270" y="20" as="geometry" />
         </mxCell>
         <mxCell id="BpuwpmjKTx-wE1sNw__A-29" edge="1" parent="BpuwpmjKTx-wE1sNw__A-4" source="BpuwpmjKTx-wE1sNw__A-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="BpuwpmjKTx-wE1sNw__A-28">
           <mxGeometry relative="1" as="geometry" />
@@ -79,14 +79,32 @@
         <mxCell id="BpuwpmjKTx-wE1sNw__A-28" parent="BpuwpmjKTx-wE1sNw__A-4" style="rhombus;whiteSpace=wrap;html=1;" value="Inventory Available?" vertex="1">
           <mxGeometry height="80" width="80" x="45" y="220" as="geometry" />
         </mxCell>
+        <mxCell id="BpuwpmjKTx-wE1sNw__A-41" edge="1" parent="BpuwpmjKTx-wE1sNw__A-4" source="BpuwpmjKTx-wE1sNw__A-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="BpuwpmjKTx-wE1sNw__A-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="BpuwpmjKTx-wE1sNw__A-35" parent="BpuwpmjKTx-wE1sNw__A-4" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Goods Picked &amp;amp; Packed" vertex="1">
           <mxGeometry height="75" width="85" x="42.5" y="340" as="geometry" />
         </mxCell>
-        <mxCell id="BpuwpmjKTx-wE1sNw__A-37" parent="BpuwpmjKTx-wE1sNw__A-4" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=10;" value="Escalate To Manager- Back Order Or Cancel" vertex="1">
+        <mxCell id="BpuwpmjKTx-wE1sNw__A-37" parent="BpuwpmjKTx-wE1sNw__A-4" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=11;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontColor=default;fillColor=#FF6666;" value="Escalate To Manager- Back Order Or Cancel" vertex="1">
           <mxGeometry height="60" width="65" x="200" y="230" as="geometry" />
         </mxCell>
+        <mxCell id="BpuwpmjKTx-wE1sNw__A-42" edge="1" parent="BpuwpmjKTx-wE1sNw__A-4" source="BpuwpmjKTx-wE1sNw__A-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.485;exitY=0.833;exitDx=0;exitDy=0;exitPerimeter=0;" target="BpuwpmjKTx-wE1sNw__A-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BpuwpmjKTx-wE1sNw__A-39" parent="BpuwpmjKTx-wE1sNw__A-4" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" value="Packing Slip Generated" vertex="1">
+          <mxGeometry height="65" width="105" x="32.5" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="BpuwpmjKTx-wE1sNw__A-45" edge="1" parent="BpuwpmjKTx-wE1sNw__A-4" source="BpuwpmjKTx-wE1sNw__A-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="BpuwpmjKTx-wE1sNw__A-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BpuwpmjKTx-wE1sNw__A-40" parent="BpuwpmjKTx-wE1sNw__A-4" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Shipping Autorization Verified" vertex="1">
+          <mxGeometry height="100" width="100" x="35" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="BpuwpmjKTx-wE1sNw__A-43" parent="BpuwpmjKTx-wE1sNw__A-4" style="shape=offPageConnector;whiteSpace=wrap;html=1;" value="Continued- Page 2" vertex="1">
+          <mxGeometry height="80" width="80" x="45" y="720" as="geometry" />
+        </mxCell>
         <mxCell id="BpuwpmjKTx-wE1sNw__A-5" parent="BpuwpmjKTx-wE1sNw__A-2" style="swimlane;html=1;startSize=38;fillColor=#99FFFF;" value="Accounts Receivable" vertex="1">
-          <mxGeometry height="770" width="150" x="550" y="20" as="geometry" />
+          <mxGeometry height="840" width="150" x="550" y="20" as="geometry" />
         </mxCell>
         <mxCell id="BpuwpmjKTx-wE1sNw__A-34" edge="1" parent="BpuwpmjKTx-wE1sNw__A-2" source="BpuwpmjKTx-wE1sNw__A-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="BpuwpmjKTx-wE1sNw__A-23">
           <mxGeometry relative="1" as="geometry">
@@ -94,6 +112,46 @@
               <mxPoint x="280" y="710" />
               <mxPoint x="280" y="150" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="44lrhcY4-rL-EUnhzIx7" name="Page 2">
+    <mxGraphModel dx="803" dy="603" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="pu6KGoJ3Otf1nRI5lJC--1" parent="1" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;whiteSpace=wrap;" value="Kissena Bakery - Revenue Cycle (Order-To-Cash)" vertex="1">
+          <mxGeometry height="860" width="700" x="330" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="pu6KGoJ3Otf1nRI5lJC--2" parent="pu6KGoJ3Otf1nRI5lJC--1" style="swimlane;html=1;startSize=38;fillColor=#FFFF99;" value="Sales Department" vertex="1">
+          <mxGeometry height="840" width="270" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pu6KGoJ3Otf1nRI5lJC--16" parent="pu6KGoJ3Otf1nRI5lJC--1" style="swimlane;html=1;startSize=38;fillColor=#6666FF;" value="Warehouse Department" vertex="1">
+          <mxGeometry height="840" width="280" x="270" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pu6KGoJ3Otf1nRI5lJC--34" edge="1" parent="pu6KGoJ3Otf1nRI5lJC--16" source="pu6KGoJ3Otf1nRI5lJC--32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="pu6KGoJ3Otf1nRI5lJC--33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pu6KGoJ3Otf1nRI5lJC--32" parent="pu6KGoJ3Otf1nRI5lJC--16" style="shape=offPageConnector;whiteSpace=wrap;html=1;" value="Continued- Page 2" vertex="1">
+          <mxGeometry height="80" width="80" x="100" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pu6KGoJ3Otf1nRI5lJC--33" parent="pu6KGoJ3Otf1nRI5lJC--16" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Goods Dispatched To Customer" vertex="1">
+          <mxGeometry height="100" width="100" x="90" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="pu6KGoJ3Otf1nRI5lJC--30" parent="pu6KGoJ3Otf1nRI5lJC--1" style="swimlane;html=1;startSize=38;fillColor=#99FFFF;" value="Accounts Receivable" vertex="1">
+          <mxGeometry height="840" width="150" x="550" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pu6KGoJ3Otf1nRI5lJC--35" parent="pu6KGoJ3Otf1nRI5lJC--30" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Dispatch Confirmation Received" vertex="1">
+          <mxGeometry height="100" width="100" x="25" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pu6KGoJ3Otf1nRI5lJC--37" parent="pu6KGoJ3Otf1nRI5lJC--30" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" value="" vertex="1">
+          <mxGeometry height="80" width="120" x="15" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="pu6KGoJ3Otf1nRI5lJC--36" edge="1" parent="pu6KGoJ3Otf1nRI5lJC--1" source="pu6KGoJ3Otf1nRI5lJC--33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.007;entryY=0.418;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="pu6KGoJ3Otf1nRI5lJC--35">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="460" y="250" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
       </root>
