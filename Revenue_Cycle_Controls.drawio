@@ -1,14 +1,14 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="M0kHXgkDdQyvt9E_IEKu">
-    <mxGraphModel dx="945" dy="709" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="642" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="BpuwpmjKTx-wE1sNw__A-2" parent="1" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;whiteSpace=wrap;" value="Kissena Bakery - Revenue Cycle (Order-To-Cash)" vertex="1">
-          <mxGeometry height="730" width="460" x="320" y="50" as="geometry" />
+          <mxGeometry height="790" width="460" x="320" y="50" as="geometry" />
         </mxCell>
         <mxCell id="BpuwpmjKTx-wE1sNw__A-3" parent="BpuwpmjKTx-wE1sNw__A-2" style="swimlane;html=1;startSize=38;fillColor=#FFFF99;" value="Sales Department" vertex="1">
-          <mxGeometry height="710" width="140" y="20" as="geometry" />
+          <mxGeometry height="770" width="140" y="20" as="geometry" />
         </mxCell>
         <mxCell id="BpuwpmjKTx-wE1sNw__A-8" edge="1" parent="BpuwpmjKTx-wE1sNw__A-3" source="BpuwpmjKTx-wE1sNw__A-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" target="BpuwpmjKTx-wE1sNw__A-7" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -35,11 +35,25 @@
             <mxPoint x="70" y="350" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="BpuwpmjKTx-wE1sNw__A-20" edge="1" parent="BpuwpmjKTx-wE1sNw__A-3" source="BpuwpmjKTx-wE1sNw__A-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" target="BpuwpmjKTx-wE1sNw__A-19" value="No">
+          <mxGeometry relative="1" x="-0.3333" y="10" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BpuwpmjKTx-wE1sNw__A-17" parent="BpuwpmjKTx-wE1sNw__A-3" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="Credit Check Approved?" vertex="1">
+          <mxGeometry height="100" width="100" x="20" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="BpuwpmjKTx-wE1sNw__A-18" edge="1" parent="BpuwpmjKTx-wE1sNw__A-3" source="BpuwpmjKTx-wE1sNw__A-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.493;exitY=0.842;exitDx=0;exitDy=0;exitPerimeter=0;" target="BpuwpmjKTx-wE1sNw__A-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BpuwpmjKTx-wE1sNw__A-19" parent="BpuwpmjKTx-wE1sNw__A-3" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Order Rejected- Customer Notified" vertex="1">
+          <mxGeometry height="70" width="100" x="20" y="670" as="geometry" />
+        </mxCell>
         <mxCell id="BpuwpmjKTx-wE1sNw__A-4" parent="BpuwpmjKTx-wE1sNw__A-2" style="swimlane;html=1;startSize=38;fillColor=#6666FF;" value="Warehouse Department" vertex="1">
-          <mxGeometry height="710" width="170" x="140" y="20" as="geometry" />
+          <mxGeometry height="770" width="170" x="140" y="20" as="geometry" />
         </mxCell>
         <mxCell id="BpuwpmjKTx-wE1sNw__A-5" parent="BpuwpmjKTx-wE1sNw__A-2" style="swimlane;html=1;startSize=38;fillColor=#99FFFF;" value="Accounts Receivable" vertex="1">
-          <mxGeometry height="710" width="150" x="310" y="20" as="geometry" />
+          <mxGeometry height="770" width="150" x="310" y="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
