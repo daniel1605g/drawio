@@ -143,11 +143,38 @@
         <mxCell id="pu6KGoJ3Otf1nRI5lJC--30" parent="pu6KGoJ3Otf1nRI5lJC--1" style="swimlane;html=1;startSize=38;fillColor=#99FFFF;" value="Accounts Receivable" vertex="1">
           <mxGeometry height="840" width="150" x="550" y="20" as="geometry" />
         </mxCell>
+        <mxCell id="pu6KGoJ3Otf1nRI5lJC--40" edge="1" parent="pu6KGoJ3Otf1nRI5lJC--30" source="pu6KGoJ3Otf1nRI5lJC--35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="pu6KGoJ3Otf1nRI5lJC--37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="pu6KGoJ3Otf1nRI5lJC--35" parent="pu6KGoJ3Otf1nRI5lJC--30" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Dispatch Confirmation Received" vertex="1">
           <mxGeometry height="100" width="100" x="25" y="60" as="geometry" />
         </mxCell>
-        <mxCell id="pu6KGoJ3Otf1nRI5lJC--37" parent="pu6KGoJ3Otf1nRI5lJC--30" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" value="" vertex="1">
+        <mxCell id="pu6KGoJ3Otf1nRI5lJC--41" edge="1" parent="pu6KGoJ3Otf1nRI5lJC--30" source="pu6KGoJ3Otf1nRI5lJC--37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.506;exitY=0.84;exitDx=0;exitDy=0;exitPerimeter=0;" target="pu6KGoJ3Otf1nRI5lJC--38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pu6KGoJ3Otf1nRI5lJC--37" parent="pu6KGoJ3Otf1nRI5lJC--30" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" value="Invoice Generated &amp;amp; Sent To Customer" vertex="1">
           <mxGeometry height="80" width="120" x="15" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="pu6KGoJ3Otf1nRI5lJC--42" edge="1" parent="pu6KGoJ3Otf1nRI5lJC--30" source="pu6KGoJ3Otf1nRI5lJC--38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="pu6KGoJ3Otf1nRI5lJC--39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pu6KGoJ3Otf1nRI5lJC--38" parent="pu6KGoJ3Otf1nRI5lJC--30" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Payment Received From Customer" vertex="1">
+          <mxGeometry height="100" width="100" x="25" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="pu6KGoJ3Otf1nRI5lJC--46" edge="1" parent="pu6KGoJ3Otf1nRI5lJC--30" source="pu6KGoJ3Otf1nRI5lJC--39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.498;exitY=0.826;exitDx=0;exitDy=0;exitPerimeter=0;" target="pu6KGoJ3Otf1nRI5lJC--43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pu6KGoJ3Otf1nRI5lJC--39" parent="pu6KGoJ3Otf1nRI5lJC--30" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" value="Remittance Advice Recorded" vertex="1">
+          <mxGeometry height="80" width="120" x="15" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="pu6KGoJ3Otf1nRI5lJC--43" parent="pu6KGoJ3Otf1nRI5lJC--30" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Cash Posted To Accounts Receivable" vertex="1">
+          <mxGeometry height="100" width="100" x="25" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="pu6KGoJ3Otf1nRI5lJC--44" parent="pu6KGoJ3Otf1nRI5lJC--30" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" value="END" vertex="1">
+          <mxGeometry height="60" width="100" x="25" y="760" as="geometry" />
+        </mxCell>
+        <mxCell id="pu6KGoJ3Otf1nRI5lJC--45" edge="1" parent="pu6KGoJ3Otf1nRI5lJC--30" source="pu6KGoJ3Otf1nRI5lJC--43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="pu6KGoJ3Otf1nRI5lJC--44">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="pu6KGoJ3Otf1nRI5lJC--36" edge="1" parent="pu6KGoJ3Otf1nRI5lJC--1" source="pu6KGoJ3Otf1nRI5lJC--33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.007;entryY=0.418;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="pu6KGoJ3Otf1nRI5lJC--35">
           <mxGeometry relative="1" as="geometry">
