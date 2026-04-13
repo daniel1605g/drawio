@@ -1,9 +1,24 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="M0kHXgkDdQyvt9E_IEKu">
-    <mxGraphModel dx="1173" dy="677" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="1212" dy="709" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="BpuwpmjKTx-wE1sNw__A-2" parent="1" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;whiteSpace=wrap;" value="Kissena Bakery - Revenue Cycle (Order-To-Cash)" vertex="1">
+          <mxGeometry height="730" width="460" x="320" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="BpuwpmjKTx-wE1sNw__A-3" parent="BpuwpmjKTx-wE1sNw__A-2" style="swimlane;html=1;startSize=38;fillColor=#FFFF99;" value="Sales Department" vertex="1">
+          <mxGeometry height="710" width="140" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="BpuwpmjKTx-wE1sNw__A-6" parent="BpuwpmjKTx-wE1sNw__A-3" style="strokeWidth=3;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=#99FF99;strokeColor=#006600;" value="&lt;b&gt;START&lt;/b&gt;" vertex="1">
+          <mxGeometry height="40" width="80" x="30" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="BpuwpmjKTx-wE1sNw__A-4" parent="BpuwpmjKTx-wE1sNw__A-2" style="swimlane;html=1;startSize=38;fillColor=#6666FF;" value="Warehouse Department" vertex="1">
+          <mxGeometry height="710" width="170" x="140" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="BpuwpmjKTx-wE1sNw__A-5" parent="BpuwpmjKTx-wE1sNw__A-2" style="swimlane;html=1;startSize=38;fillColor=#99FFFF;" value="Accounts Receivable" vertex="1">
+          <mxGeometry height="710" width="150" x="310" y="20" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
